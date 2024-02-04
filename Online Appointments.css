@@ -1,0 +1,47 @@
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    list-style-type: none;
+    margin: 2;
+    padding: 8px;
+    overflow: hidden;
+    background-color:#00bcd4;
+  }
+li {
+    float:left;
+  }  
+.active
+  {
+   background-color:#00bcd4;
+   color:aliceblue;
+  } 
+li a:hover {
+    background-color:orange;
+    color: blue;
+  }
+li a {
+    display: block;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    padding:10px 20px;
+    text-decoration:none;
+  }
+h1{
+    text-decoration: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    font-stretch: extra-condensed;
+    font-weight: bolder;
+    font-variant: small-caps;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+.appointment
+  {
+    background-color: antiquewhite;
+  }

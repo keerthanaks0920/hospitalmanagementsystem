@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointments</title>
+    <style>
+      body{
+        background-image: url(img17.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      label{
+        color:red;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="Online Appointments.css">
+  <body class="appointment">
+    <h1 align="center"> MOTHER THERESA HOSPITAL</h1>
+    <ul>
+        <li> <a href="home.html"> Home</a></li>
+        <li> <a href="doctors.html"> Our Doctors</a></li>
+        <li> <a class="active" href="Online Appointments.html"> Online Appointments </a></li>
+        <li> <a href="Gallery.html">Gallery</a></li> 
+        <li> <a href="About Us.html"> About us </a> </li>
+        <li> <a href="Contact us.html"> Contact Us</a></li>
+      </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1><font color="red">Appointments</font></h1>
+    <form>
+        <label>Doctors Name:</label>
+        <select>
+          <option value="doctorname">Doctor Name</option>
+          <option value="Dr.Prasad">Dr.Prasad</option>
+          <option value="Dr.Sateesh">Dr.Sateesh</option>
+          <option value="Dr.Bhargav ">Dr.Bhargav</option>
+          <option value="Dr.Sireesha">Dr.Sireesha </option>
+          <option value="Dr.Malleswari">Dr.Malleswari</option></select>
+          <br><br>
+        <label>Address:</label>
+        <textarea value="address"></textarea><br><br>
+        <label>Patient name:</label>
+        <input type="text" name="patient name" size="20" /><br><br>
+        <label>Email:</label>
+        <input type="email " id="email" name="email" /><br><br>
+        <label>Mobile number:</label>
+        <input type="text" name="phone" size="10" /><br><br>
+        <button
+          type="button"
+          onclick="alert('your appointment is booked succesfully')"
+        >
+          Submit
+        </button>
+    </form>
+  <br>
+  <br>
+  <br>
+  <br><br>
+  <br><br>
+  <br><br><br>
+<br><br><br>
+</body>
+  </html>

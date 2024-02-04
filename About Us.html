@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> About Us</title>
+    <link rel="stylesheet" href="About Us.css">
+</head>
+<body>
+    <h1 align="center"> MOTHER THERESA HOSPITAL</h1><br>
+ <ul>
+  <li> <a  href="home.html"> Home</a></li>
+  <li> <a href="doctors.html">Our Doctors</a></li>
+  <li> <a href="Online Appointments.html"> Online Appointments </a></li>
+  
+  <li> <a href="Gallery.html">Gallery</a></li>
+  <li> <a class="active"href="About Us.html"> About Us </a> </li>
+  <li> <a href="Contact us.html">  Contact Us </a></li>
+</ul>
+	<div class="section">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3>Here at our hospital,</h3>
+					<p>
+						MOTHER THERESA HOSPITAL is widespread hospital with a motive to deliver premium quality healthcare facilities with 
+						utmost sense of hospitality and professionalism.The hospital is equipped with preeminance facilities and deals with 
+						diagnosis and treatment of patients inorder to deliver a supreme sense of satisfaction among them.
+                        <br>
+						<br>
+						The Mother Theresa Hospital has highly qualified and experienced doctors in their respective fields along with highly 
+						educated and skilled staff to  ensure comprehensive wellbeing of the patients.The hospital offers warmhearted care and,
+						 healing touch to its beneficiaries as its ewuipped with the best team and state of art facilities including advanced
+						  technologies specialised.Our hospital provides quality healthcare to the clients in a very pocket friendly manner 
+						  coupled with tepidness & caring nature.Here we offer a high order of inegrated quality health care with holistic
+						   approach under one roof as we,the team of Mother Theresa Hospital believe to serve the mankind with humanity. 
+					</p>
+				</div>
+				<div class="social">
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="image-section">
+				<div div class="slideshow-container">
+					<div class="mySlides fade">
+					   <img src="img8.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+					  <img src="img7.jpg" style="width:100%">
+				   </div>
+				   <div class="mySlides fade">
+					<img src="img27.jpg" style="width:100%">
+				   </div>
+					<div class="mySlides fade">
+					   <img src="img9.jpg" style="width: 100%">
+					</div>
+					<div class="mySlides fade">
+						<img src="img2.jpg" style="width:100%">
+					</div>
+				  </div>
+			  <div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+			  </div>
+			  <a class="prev" onclick="plusSlides(-1)"></a>
+			  <a class="next" onclick="plusSlides(1)"></a>
+			  <br><script>
+				let slideIndex = 0;
+				showSlides();
+				
+				function showSlides() {
+				  let i;
+				  let slides = document.getElementsByClassName("mySlides");
+				  let dots = document.getElementsByClassName("dot");
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				  }
+				  slideIndex++;
+				  if (slideIndex > slides.length) {slideIndex = 1}    
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				  setTimeout(showSlides,2000); // Change image every 2 seconds
+				}
+				</script>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>

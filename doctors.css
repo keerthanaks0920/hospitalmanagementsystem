@@ -1,0 +1,66 @@
+.doctor {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 25%;
+  height: 25%;
+  border: 2px solid #123fed;
+
+  margin: 10px;
+}
+.doctor {
+  background-color: rgb(210, 205, 199);
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  list-style-type: none;
+  margin: 2;
+  padding: 8px;
+  overflow: hidden;
+  background-color: #00bcd4;
+}
+li {
+  float: left;
+}
+.active {
+  background-color: #beced1;
+  color: rgb(17, 117, 199);
+}
+li a:hover {
+  background-color: rgb(18, 184, 29);
+  color: rgb(14, 14, 129);
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+h1 {
+  text-decoration: solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-stretch: extra-condensed;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+body {
+  background-image: url("");
+}
+.doctor2 {
+  background-color: aqua;
+}
+/*.doctor3 {
+  background-color: black;
+}
+*/

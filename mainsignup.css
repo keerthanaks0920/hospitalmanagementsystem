@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    background:#00bcd4;;
+    color: #ffffff;
+        }
+form{
+    background-image: url("bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 138%;
+    
+    width: 400px;
+    padding: 20px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,1.15);
+}
+h6{
+    color:whitesmoke;
+}
+.col-12{
+    text-align: center;
+}
